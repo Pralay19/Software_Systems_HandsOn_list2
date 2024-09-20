@@ -1,0 +1,3 @@
+[pralaydsaw@ 16prog](master)$ ./16
+Child with pid 27178 and parent pid 27177 reads: Hello My Child!
+Parent with pid 27177 reads: Hello my dear Parent

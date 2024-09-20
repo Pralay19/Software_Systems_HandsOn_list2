@@ -1,0 +1,6 @@
+[pralaydsaw@ 15prog](master)$ ./15
+Parent process-> Enter message for child:
+Hello my Child!
+Parent (PID 23812) transmitted 15 bytes
+Child (PID 23813, Parent PID 23812) received 15 bytes
+Message from Parent: Hello my Child!

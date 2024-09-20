@@ -1,0 +1,3 @@
+Enter message for transmission:
+hi I am talking to you from the Other Side
+Transmitted message: hi I am talking to you from the Other Side
