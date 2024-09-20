@@ -1,0 +1,4 @@
+Command Executed: [pralaydsaw@ 10prog](master)$ ./10b
+Use termination shortcut
+^C
+Termination request received
