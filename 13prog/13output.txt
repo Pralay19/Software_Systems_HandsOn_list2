@@ -1,0 +1,8 @@
+1st Step: [pralaydsaw@ 13prog](master)$ ./13extra
+13extra.c PID is 18687
+
+2nd Step: [pralaydsaw@ 13prog](master)$ ./13
+Enter process ID: 18687
+Signal sent
+
+3rd Step: [1]+  Stopped                 ./13extra

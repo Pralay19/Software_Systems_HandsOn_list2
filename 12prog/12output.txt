@@ -1,0 +1,4 @@
+Progenitor executing
+Offspring process with parent ID 11965
+Killed
+[pralaydsaw@ 12prog](master)$ Chil process is now orphan having  new parent ID: 377
