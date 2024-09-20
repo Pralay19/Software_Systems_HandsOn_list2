@@ -1,0 +1,2 @@
+[pralaydsaw@ 17prog](master)$ ./17a
+      3      20     127

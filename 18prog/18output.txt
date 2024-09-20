@@ -1,0 +1,2 @@
+[pralaydsaw@ 18prog](master)$ ./18
+      0       0       0
