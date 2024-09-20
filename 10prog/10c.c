@@ -1,6 +1,6 @@
 /* 
 ====================================
-* PROGRAM: 
+* PROGRAM: 10c.c
 * AUTHOR: PRALAY D. SAW
 * ROLLNO: MT2024119
 * DESCRIPTION:
