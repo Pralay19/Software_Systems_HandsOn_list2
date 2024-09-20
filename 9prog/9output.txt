@@ -1,0 +1,25 @@
+Command Executed: [pralaydsaw@ 9prog](master)$ ./9 10
+
+Ignoring Ctrl+C
+
+ 10 seconds left
+
+ 9 seconds left
+^C
+ 8 seconds left
+^C
+ 7 seconds left
+^C
+ 6 seconds left
+^C
+ 5 seconds left
+
+ 4 seconds left
+
+ 3 seconds left
+^C
+ 2 seconds left
+
+ 1 seconds left
+Default action triggered
+^C
