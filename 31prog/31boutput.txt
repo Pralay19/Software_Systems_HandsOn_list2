@@ -1,0 +1,2 @@
+[pralaydsaw@ 31prog](master)$ ./31b
+Counting semaphore created and initialized successfully
