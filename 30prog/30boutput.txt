@@ -1,0 +1,4 @@
+[pralaydsaw@ 30prog](master)$ ./30b
+Shared memory ID: 2
+Enter input: hi hello yolo
+Segmentation fault

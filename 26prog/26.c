@@ -19,20 +19,20 @@ struct Message {
 
 int main() {
     int messageKey = ftok(".", 1);
-    int messageQueue = msgget(messageKey, 0666 | IPC_CREAT);
+    int msg_q = msgget(messageKey, 0666 | IPC_CREAT);
 
-    if (messageQueue == -1) {
+    if (msg_q == -1) {
         perror("msgget");
         exit(1);
     }
 
-    printf("Message queue ID: %d\n", messageQueue);
+    printf("Message queue ID: %d\n", msg_q);
 
     msg.type = 1;
 
     fgets(msg.data, 10, stdin);
 
-    int sendResult = msgsnd(messageQueue, &msg, sizeof(msg), 0);
+    int sendResult = msgsnd(msg_q, &msg, sizeof(msg), 0);
     if (sendResult == -1) {
         perror("msgsnd");
         exit(1);

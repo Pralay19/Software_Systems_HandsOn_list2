@@ -25,11 +25,6 @@ int main() {
     key_t token = ftok("../.",1);
     int channel = msgget(token, 0600 | IPC_CREAT);
     
-    if (channel == -1) {
-        perror("Channel creation failed");
-        exit(1);
-    }
-    
     printf("Input your message:\n");
     pkg.flag = 3;
     fgets(pkg.content, 15, stdin);

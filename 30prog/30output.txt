@@ -1,0 +1,4 @@
+[pralaydsaw@ 30prog](master)$ ./30a
+Shared memory identifier: 2
+Enter data to store: hi hello
+Data stored in shared memory.

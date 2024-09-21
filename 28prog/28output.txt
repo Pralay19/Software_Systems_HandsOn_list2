@@ -1,0 +1,13 @@
+[pralaydsaw@ 28prog](master)$ sublm 28.c
+[pralaydsaw@ 28prog](master)$ gcc 28.c -o 28
+[pralaydsaw@ 28prog](master)$ ./28
+Initial access mode: 777
+Updated access mode: 766
+[pralaydsaw@ 28prog](master)$ ipcs -q
+
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages
+0x2120e002 0          pralaydsaw 600        0            0
+0x01209574 1          pralaydsaw 600        0            0
+0x412072be 2          pralaydsaw 644        0            0
+0x042038ce 3          pralaydsaw 766        0            0

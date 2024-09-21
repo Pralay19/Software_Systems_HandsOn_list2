@@ -1,0 +1,10 @@
+[pralaydsaw@ 30prog](master)$ ./30c
+Shared memory ID: 2
+Data stored: hi
+Shared memory detached successful
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status
+0x41206434 0          pralaydsaw 744        2048       0
+0x02206434 1          pralaydsaw 744        1024       0
+0x01206434 2          pralaydsaw 744        1024       0
