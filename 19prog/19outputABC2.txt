@@ -1,0 +1,60 @@
+#THIS IS THE OUTPUT WHEN FIFO EXISTS.
+[pralaydsaw@ 19prog](master)$ ./19
+Command: mknod myPipe1 p
+
+*Command: mkfifo myPipe2 p
+
+*Command: ls
+19  19.c  19first  19first.c  19outputABC.txt  myPipe1  myPipe2  p
+
+*Command: strace -c mkfifo myPipe3
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 28.06    0.000605          18        33        13 openat
+ 22.22    0.000479          15        30           mmap
+ 15.21    0.000328          14        22           close
+ 14.19    0.000306          15        20           newfstatat
+  4.41    0.000095          13         7           mprotect
+  3.99    0.000086          12         7           read
+  2.04    0.000044          44         1           mknodat
+  1.72    0.000037          18         2         2 statfs
+  1.35    0.000029           9         3           brk
+  1.02    0.000022          22         1           munmap
+  0.93    0.000020          20         1           futex
+  0.83    0.000018           9         2         2 access
+  0.70    0.000015           7         2         1 arch_prctl
+  0.70    0.000015          15         1           prlimit64
+  0.70    0.000015          15         1           getrandom
+  0.65    0.000014          14         1           set_tid_address
+  0.65    0.000014          14         1           set_robust_list
+  0.65    0.000014          14         1           rseq
+  0.00    0.000000           0         4           pread64
+  0.00    0.000000           0         1           execve
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.002156          15       141        18 total
+
+*Command: strace -c mknod myPipe4 p
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+  0.00    0.000000           0         7           read
+  0.00    0.000000           0        22           close
+  0.00    0.000000           0        30           mmap
+  0.00    0.000000           0         7           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         4           pread64
+  0.00    0.000000           0         2         2 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         2 statfs
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         1           futex
+  0.00    0.000000           0         1           set_tid_address
+  0.00    0.000000           0        33        13 openat
+  0.00    0.000000           0         1           mknodat
+  0.00    0.000000           0        20           newfstatat
+  0.00    0.000000           0         1           set_robust_list
+  0.00    0.000000           0         1           prlimit64
+  0.00    0.000000           0         1           getrandom
+  0.00    0.000000           0         1           rseq
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000000           0       141        18 total

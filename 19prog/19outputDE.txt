@@ -1,0 +1,18 @@
+[pralaydsaw@ 19prog](master)$ ./19second
+
+total 68
+-rwxr-xr-x 1 pralaydsaw pralaydsaw 16040 Sep 21 14:51 19
+-rw-r--r-- 1 pralaydsaw pralaydsaw  1598 Sep 21 14:46 19.c
+-rwxr-xr-x 1 pralaydsaw pralaydsaw 16048 Sep 21 14:46 19first
+-rw-r--r-- 1 pralaydsaw pralaydsaw  1279 Sep 21 14:57 19first.c
+-rw-r--r-- 1 pralaydsaw pralaydsaw  3128 Sep 21 14:50 19outputABC.txt
+-rw-r--r-- 1 pralaydsaw pralaydsaw  3154 Sep 21 14:53 19outputABC2.txt
+-rwxr-xr-x 1 pralaydsaw pralaydsaw 16176 Sep 21 14:59 19second
+-rw-r--r-- 1 pralaydsaw pralaydsaw   779 Sep 21 14:59 19second.c
+prw-r--r-- 1 pralaydsaw pralaydsaw     0 Sep 21 14:59 fifo_pipe
+prw-r--r-- 1 pralaydsaw pralaydsaw     0 Sep 21 14:51 myPipe1
+prw-r--r-- 1 pralaydsaw pralaydsaw     0 Sep 21 14:51 myPipe2
+prw-r--r-- 1 pralaydsaw pralaydsaw     0 Sep 21 14:51 myPipe3
+prw-r--r-- 1 pralaydsaw pralaydsaw     0 Sep 21 14:51 myPipe4
+prw-r--r-- 1 pralaydsaw pralaydsaw     0 Sep 21 14:59 my_pipe
+prw-r--r-- 1 pralaydsaw pralaydsaw     0 Sep 21 14:51 p
