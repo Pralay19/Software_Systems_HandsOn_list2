@@ -1,0 +1,8 @@
+STEP1:(terminal 1)
+[pralaydsaw@ 33prog](master)$ ./33server
+Server listening on port 8080
+Received message: Hello from client
+
+STEP2:(terminal 2)
+[pralaydsaw@ 33prog](master)$ ./33client
+Message sent: Hello from client
