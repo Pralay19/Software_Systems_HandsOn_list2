@@ -1,0 +1,17 @@
+[pralaydsaw@ 24prog](master)$ ./24
+Token: 119575924
+Queue Id: 0
+
+AFTER CHANGING PATH IN FTOK
+[pralaydsaw@ 24prog](master)$ sublm 24.c
+[pralaydsaw@ 24prog](master)$ gcc 24.c -o 24
+[pralaydsaw@ 24prog](master)$ ./24
+Token: 119595010
+Queue Id: 1
+
+AFTER CHANGING PROJ_ID BUT KEEPING SAME PATH
+[pralaydsaw@ 24prog](master)$ sublm 24.c
+[pralaydsaw@ 24prog](master)$ gcc 24.c -o 24
+[pralaydsaw@ 24prog](master)$ ./24
+Token: 1092673538
+Queue Id: 2

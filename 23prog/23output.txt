@@ -1,0 +1,3 @@
+[pralaydsaw@ 23prog](master)$ ./23
+Maximum concurrent open files: 1024
+Maximum pipe buffer capacity: 4096

@@ -1,0 +1,12 @@
+[pralaydsaw@ 25prog](master)$ ./25
+
+Access permission: 511
+UID: 1000        GID: 1000
+Time of last message sent: 0
+Time of last message received: 0
+Time of last queue change: 1726918182
+Current queue size (bytes): 0
+Number of messages in queue: 0
+Maximum queue size (bytes): 16384
+Last msgsnd PID: 0
+Last msgrcv PID: 0

@@ -1,0 +1,13 @@
+[pralaydsaw@ 26prog](master)$ ./26
+Message queue ID: 4
+Hi this my message to you.
+Data sent to message queue
+[pralaydsaw@ 26prog](master)$ ipcs -q
+
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages
+0x07209574 0          pralaydsaw 777        0            0
+0x0720e002 1          pralaydsaw 777        0            0
+0x4120e002 2          pralaydsaw 777        0            0
+0x012063aa 3          pralaydsaw 777        0            0
+0x012063b2 4          pralaydsaw 666        112          1
