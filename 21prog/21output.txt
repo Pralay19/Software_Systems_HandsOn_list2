@@ -1,0 +1,9 @@
+[pralaydsaw@ 21prog](master)$ ./21main
+Input message for transmission:
+Hi how are you?
+Message received from counterpart: I am fine thank you.
+
+[pralaydsaw@ 21prog](master)$ ./21side
+Input message for transmission:
+I am fine thank you.
+Message received from counterpart: Hi how are you?

@@ -1,0 +1,16 @@
+[pralaydsaw@ 22prog](master)$ ./22
+No data received
+[pralaydsaw@ 22prog](master)$ ls
+22  22.c  datapipe
+[pralaydsaw@ 22prog](master)$ rm datapipe
+[pralaydsaw@ 22prog](master)$ ./22
+Hi hello yo
+No data received
+[pralaydsaw@ 22prog](master)$ Hi hello yo
+Hi: command not found
+[pralaydsaw@ 22prog](master)$ ./22
+Pipe creation failed: File exists
+No data received
+[pralaydsaw@ 22prog](master)$ rm datapipe
+[pralaydsaw@ 22prog](master)$ ./22
+hi hello yoNo data received
