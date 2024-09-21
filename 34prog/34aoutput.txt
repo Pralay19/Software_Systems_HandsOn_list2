@@ -1,0 +1,19 @@
+#CLIENT
+[pralaydsaw@ 34prog](master)$ ./34aclient
+Server reply: Greetings from the server!
+[pralaydsaw@ 34prog](master)$ ./34aclient
+Server reply: Greetings from the server!
+[pralaydsaw@ 34prog](master)$ ./34aclient
+Server reply: Greetings from the server!
+[pralaydsaw@ 34prog](master)$ ./34aclient
+Server reply: Greetings from the server!
+
+
+#SERVER
+[pralaydsaw@ 34prog](master)$ ./34aserver
+Server Online...
+Message from client: Greetings from the client
+Message from client: Greetings from the client
+Message from client: Greetings from the client
+Message from client: Greetings from the client
+^C

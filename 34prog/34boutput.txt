@@ -1,0 +1,17 @@
+#STEP 1:
+[pralaydsaw@ 34prog](master)$ ./34bserver
+Client message: Hello from the client!
+Client message: Hello from the client!
+Client message: Hello from the client!
+Client message: Hello from the client!
+^C
+
+#STEP 2:
+[pralaydsaw@ 34prog](master)$ ./34bclient
+Server response: Hello from the server!
+[pralaydsaw@ 34prog](master)$ ./34bclient
+Server response: Hello from the server!
+[pralaydsaw@ 34prog](master)$ ./34bclient
+Server response: Hello from the server!
+[pralaydsaw@ 34prog](master)$ ./34bclient
+Server response: Hello from the server!
