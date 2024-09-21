@@ -1,0 +1,12 @@
+[pralaydsaw@ 27prog](master)$ sublm 27b.c
+[pralaydsaw@ 27prog](master)$ gcc 27b.c -o 27b
+[pralaydsaw@ 27prog](master)$ ./27b
+Enter your message:
+hi hello yolo
+Retrieved message: hi hello yolo
+[pralaydsaw@ 27prog](master)$ sublm 27b.c
+[pralaydsaw@ 27prog](master)$ gcc 27b.c -o 27b
+[pralaydsaw@ 27prog](master)$ ./27b
+Enter your message:
+hi hello yolo
+Receive operation failed: No message of desired type

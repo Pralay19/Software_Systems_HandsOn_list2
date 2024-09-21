@@ -1,0 +1,12 @@
+[pralaydsaw@ 27prog](master)$ ./27a
+Input your message:
+Hi Hello Bye
+YoLo
+^C
+[pralaydsaw@ 27prog](master)$ sublm 27a.c
+[pralaydsaw@ 27prog](master)$ gcc 27a.c -o 27a
+[pralaydsaw@ 27prog](master)$ gcc 27a.c -o 27a
+[pralaydsaw@ 27prog](master)$ ./27a
+Input your message:
+hi hello yolo
+Received content: hi hello yolo
