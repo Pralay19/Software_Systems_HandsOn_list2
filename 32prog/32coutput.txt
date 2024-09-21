@@ -1,0 +1,3 @@
+[pralaydsaw@ 32prog](master)$ ./32c
+Accessing resource 0.
+Accessing resource 1.

@@ -1,0 +1,13 @@
+[pralaydsaw@ 32prog](master)$ ./32d
+Binary semaphore created and initialized with ID 1
+
+------ Semaphore Arrays --------
+key        semid      owner      perms      nsems
+0x012063a0 0          pralaydsaw 777        2
+0x01206403 1          pralaydsaw 777        1
+
+Semaphore removed successfully
+
+------ Semaphore Arrays --------
+key        semid      owner      perms      nsems
+0x012063a0 0          pralaydsaw 777        2

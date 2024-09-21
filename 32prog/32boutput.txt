@@ -1,0 +1,5 @@
+[pralaydsaw@ 32prog](master)$ ./32b
+Shared memory ID: 3
+Current shared memory content:
+Current shared memory content: Data from Writer 1
+Final shared memory content: Data from Writer 2
